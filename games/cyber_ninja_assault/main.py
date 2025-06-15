@@ -16,7 +16,7 @@ pygame.init()
 WIDTH, HEIGHT = 800, 600
 PLAYER_COLOR = (0, 255, 200)
 ENEMY_COLOR = (255, 80, 80)
-STAR_COLOR = (255, 255, 0)
+STAR_COLOR = (255, 255, 255)
 FONT_COLOR = (0, 255, 200)
 UI_COLOR = (180, 180, 180)
 FONT = pygame.font.SysFont('Arial', 36)
@@ -75,7 +75,7 @@ def run():
     player = pygame.Rect(WIDTH//2, HEIGHT//2, PLAYER_SIZE, PLAYER_SIZE)
     enemies = [pygame.Rect(random.randint(0, WIDTH-ENEMY_SIZE), 
                           random.randint(0, HEIGHT-ENEMY_SIZE), 
-                          ENEMY_SIZE, ENEMY_SIZE) for _ in range(3)]
+                          ENEMY_SIZE, ENEMY_SIZE)]  # Only one enemy
     
     stars = [Star() for _ in range(STAR_COUNT)]
     collected_stars = 0
@@ -141,14 +141,12 @@ def run():
                         collected_stars += 1
                         total_stars += 1
             
-            # If all stars are collected, add more stars and enemies
+            # If all stars are collected, add more stars but keep only one enemy
             if all(star.collected for star in stars):
                 level += 1
                 stars = [Star() for _ in range(STAR_COUNT)]
-                if len(enemies) < MAX_ENEMIES:
-                    enemies.append(pygame.Rect(random.randint(0, WIDTH-ENEMY_SIZE), 
-                                             random.randint(0, HEIGHT-ENEMY_SIZE), 
-                                             ENEMY_SIZE, ENEMY_SIZE))
+                # Don't add more enemies, keep just one
+                
                 # Increase enemy speed slightly with each level
                 enemy_speed = min(enemy_speed + 0.2, SPEED - 0.5)  # Cap enemy speed below player speed
 
