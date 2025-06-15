@@ -16,12 +16,12 @@ Arena Blitz features a collection of games, each with unique mechanics and gamep
 
 The flagship game in the Arena Blitz collection delivers fast-paced ninja action in a futuristic setting:
 
-- **Fluid Movement System**: Wall-running, double-jumps, and sliding mechanics
-- **Combo-Based Combat**: Chain attacks together for devastating effects
-- **Stealth Elements**: Choose between direct confrontation or silent takedowns
-- **Cybernetic Upgrades**: Enhance your ninja's abilities as you progress
+- **Star Collection**: Collect rotating thick red stars while avoiding the red enemy box
+- **Level Progression**: Advance through increasingly difficult levels as you collect all stars
+- **Fluid Movement**: Navigate the arena with responsive controls to outmaneuver the enemy
+- **Score Challenge**: Compete for high scores by collecting as many stars as possible
 
-This game combines the precision of platformers with the excitement of action games, all wrapped in a cyber-ninja aesthetic.
+This game combines quick reflexes with strategic movement, creating an engaging arcade experience.
 
 ### 2. Shadow Ops
 
