@@ -31,7 +31,6 @@ class GameLauncher:
 
         self.games = [
             {"name": "Cyber Ninja Assault", "module": "cyber_ninja_assault"},
-
             {"name": "Shadow Ops", "module": "shadow_ops"}
         ]
 
