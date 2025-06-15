@@ -6,8 +6,6 @@ A collection of mini-games built with Pygame, organized in a unified game launch
 
 - **Cyber Ninja Assault**: A fast-paced ninja action game set in a futuristic world.
 - **Shadow Ops**: A tactical stealth game with strategic gameplay elements.
-- **Card Fortress**: (Coming soon) A card-based tower defense game.
-- **Speedrun Boss Rush**: (Coming soon) A fast-paced boss battle game.
 
 ## Project Structure
 
