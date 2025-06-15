@@ -16,7 +16,7 @@ pygame.init()
 WIDTH, HEIGHT = 800, 600
 PLAYER_COLOR = (0, 255, 200)
 ENEMY_COLOR = (255, 80, 80)
-STAR_COLOR = (255, 255, 255)
+STAR_COLOR = (255, 0, 0)  # Thick red stars
 FONT_COLOR = (0, 255, 200)
 UI_COLOR = (180, 180, 180)
 FONT = pygame.font.SysFont('Arial', 36)
@@ -59,7 +59,7 @@ class Star:
     
     def draw(self, surface):
         if not self.collected:
-            # Draw a 5-pointed star
+            # Draw a 5-pointed star with thick red color
             self.angle += 0.5
             points = []
             for i in range(10):
@@ -70,6 +70,8 @@ class Star:
                     self.y - radius * math.cos(angle)
                 ))
             pygame.draw.polygon(surface, STAR_COLOR, points)
+            # Add outline to make it look thicker
+            pygame.draw.polygon(surface, STAR_COLOR, points, 3)
 
 def run():
     player = pygame.Rect(WIDTH//2, HEIGHT//2, PLAYER_SIZE, PLAYER_SIZE)
