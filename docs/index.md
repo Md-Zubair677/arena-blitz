@@ -12,7 +12,7 @@ Arena Blitz features a collection of games, each with unique mechanics and gamep
 
 ### 1. Cyber Ninja Assault
 
-![Cyber Ninja Assault Screenshot](./images/cyber_ninja_screenshot.jpg.png)
+![Cyber Ninja Assault Screenshot](./images/cyber_ninja_redstars.png.png)
 
 The flagship game in the Arena Blitz collection delivers fast-paced ninja action in a futuristic setting:
 
