@@ -8,7 +8,7 @@ What makes Arena Blitz special is how it combines different gaming genres into o
 
 ## The Game Collection
 
-Arena Blitz features a growing collection of games, each with unique mechanics and gameplay styles:
+Arena Blitz features a collection of games, each with unique mechanics and gameplay styles:
 
 ### 1. Cyber Ninja Assault
 
@@ -35,14 +35,6 @@ This tactical stealth game challenges players with strategic gameplay elements:
 - **Multiple Approaches**: Choose between stealth, distraction, or precision takedowns
 
 Perfect for players who enjoy methodical gameplay that rewards patience and careful planning.
-
-### 3. Coming Soon
-
-The Arena Blitz development team is actively working on expanding the collection with these upcoming titles:
-
-- **Card Fortress**: A strategic tower defense game where players use collectible cards to build defensive structures and cast powerful spells. Each playthrough offers different card combinations, ensuring high replayability.
-
-- **Speedrun Boss Rush**: A challenging game focused on defeating powerful bosses as quickly as possible. Features precise controls, pattern recognition, and a global leaderboard system to compete for the fastest times.
 
 ## Visual Design and Audio
 
@@ -192,14 +184,14 @@ Popular community requests that have been implemented include:
 The Arena Blitz team has exciting plans for the future:
 
 - **Short-term Goals** (Next 3 months):
-  - Complete and release Card Fortress
   - Add new levels to Cyber Ninja Assault
   - Implement a unified achievement system
+  - Enhance the launcher with customization options
 
 - **Mid-term Goals** (6-12 months):
-  - Release Speedrun Boss Rush
   - Add mod support for custom games
   - Develop a level editor for Shadow Ops
+  - Implement multiplayer features
 
 - **Long-term Vision**:
   - Mobile version of selected games
