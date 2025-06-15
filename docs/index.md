@@ -103,7 +103,7 @@ Setting up Arena Blitz on your system is straightforward:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/arena-blitz.git
+   git clone https://github.com/Md-Zubair677/arena-blitz.git
    cd arena-blitz
    ```
 
