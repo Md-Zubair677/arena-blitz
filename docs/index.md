@@ -12,6 +12,8 @@ Arena Blitz features a growing collection of games, each with unique mechanics a
 
 ### 1. Cyber Ninja Assault
 
+![Cyber Ninja Assault Screenshot](./images/cyber_ninja_screenshot.jpg.png)
+
 The flagship game in the Arena Blitz collection delivers fast-paced ninja action in a futuristic setting:
 
 - **Fluid Movement System**: Wall-running, double-jumps, and sliding mechanics
@@ -22,6 +24,8 @@ The flagship game in the Arena Blitz collection delivers fast-paced ninja action
 This game combines the precision of platformers with the excitement of action games, all wrapped in a cyber-ninja aesthetic.
 
 ### 2. Shadow Ops
+
+![Shadow Ops Screenshot](./images/shadow_ops_screenshot.jpg.png)
 
 This tactical stealth game challenges players with strategic gameplay elements:
 
